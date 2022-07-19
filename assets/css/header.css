@@ -28,6 +28,10 @@
     padding: 1rem;
 }
 
+.menu-label{
+    padding: 1em;
+}
+
 .lista__menu{
     display: none;
     position: absolute;
@@ -50,6 +54,10 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-transform: uppercase;
+}
+
+.cabecalho__container--botao:checked ~ .menu-label{
+    background: var(--azul-claro-degrade);
 }
 
 .lista__menu--titulo, .lista__menu--item{
