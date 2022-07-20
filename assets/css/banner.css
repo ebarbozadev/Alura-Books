@@ -35,3 +35,34 @@
     background-position: 1em;
     background-size: 1.5em;
 }
+
+/* Desktop */
+
+@media screen and (min-width: 1024px){
+    .section__banner--titulo{
+        font-size: 36px;
+    }
+
+    .section__banner--pesquisa{
+        width: 50%;
+    }
+
+    .section__banner--pesquisa::placeholder{
+        background-position: 6em;
+    }
+}
+
+@media screen and (min-width: 1728px){
+    .banner{
+        padding: 6em;
+    }
+
+
+    .section__banner--pesquisa{
+        width: 31%;
+    }
+
+    .section__banner--pesquisa::placeholder{
+        background-position: 6em;
+    }
+}

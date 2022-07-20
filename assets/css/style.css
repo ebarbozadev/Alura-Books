@@ -7,14 +7,18 @@
 @import url("rodape.css");
 
 :root{
+    --preto: #000000;
     --cor-de-fundo: #EBECEE;
     --branco: #FFFFFF;
+    --branco-escuro: #F9F9F9;
     --laranja: #EB9B00;
     --azul: #002F52;
+    --cinza-escuro: #474646;
+    --cinza-claro: #858585;
     --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --azul-claro-degrade: linear-gradient(97.54deg, #0370c3 10.49%, #b6e1ff 165.37%);
     --fonte-principal: 'Poppins', sans-serif;
-
+    --fonte-secundaria: 'Josefin Sans', sans-serif;
 }
 
 body{

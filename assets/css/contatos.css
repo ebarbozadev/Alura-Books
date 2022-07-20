@@ -1,6 +1,7 @@
 .contato{
     background-color: var(--branco);
     padding: 1em;
+    display: block;
 }
 
 .contato__titulo, .contato__texto, .dois::placeholder{
@@ -34,4 +35,42 @@
     background: url(../vectors/Email.svg) no-repeat;
     padding-left: 2em;
     background-size: 18px;
+}
+
+/* Desktop */
+
+@media screen and (min-width: 1024px){
+    .contato{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .contato__titulo{
+        font-size: 24px;
+        margin-top: 1em;
+        width: 60%;
+    }
+
+    .contato__texto{
+        width: 65%;
+    }
+
+    .contato__descricao{
+        margin-right: 1em;;
+    }
+    
+    .contato__email{
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 1724px){
+    .contato{
+        padding: 3em 5vw;
+    }
+
+    .contato__titulo{
+        width: 100%;
+    }
 }
