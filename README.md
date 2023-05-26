@@ -16,7 +16,7 @@
 
 <section id="sobre">
     <h2 style="font-size: 1.25rem;">Sobre</h2>
-    <p style="text-align: justify;">Os estudos <b>deste repositório</b> foram feitos de acordo com o curso <a href="https://cursos.alura.com.br/course/html-css-responsividade-mobile-first">HTML e CSS: responsividade com mobile-first</a> com <b>auxílio</b> da instrutora <b>Mônica Mazzochi Hillman</b>.</p>
+    <p style="text-align: justify;">Os estudos <b>deste repositório</b> foram feitos de acordo com o curso <a href="https://cursos.alura.com.br/course/html-css-responsividade-mobile-first">HTML e CSS: Responsividade com Mobile-First</a> com <b>auxílio</b> da instrutora <b>Mônica Mazzochi Hillman</b>.</p>
     <p style="text-align: justify;">É um site sobre venda de livros.</p>
     <p style="text-align: justify;">Com isso, quero enfatizar que o <b>conteúdo este repositório foi um estudo</b>! Não o criei sozinho, mas todo o conhecimento fornecido vou absorvido.</p>
     <p style="text-align: justify;">Para ver o site que viu no gif, clique <a href="https://alurabooks.ebarbozadev.vercel.app/">aqui</a>.</p>
